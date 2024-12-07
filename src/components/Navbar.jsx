@@ -9,9 +9,9 @@ function Navbar() {
     <div >
         <nav className='navbar flex'>
             <ul className='flex p-5'>
-                <li className='pl-12 text-1xl'>
+                <li className='pl-12 text-1xl group'>
                   <a>Home</a>
-                  <div className='bg-gray-200 w-full hidden z-[-1] p-4 w-48 mt-5 hover:block z-40 '>
+                  <div className='bg-gray-200 w-full hidden z-[-1] p-4 w-48 mt-5 group-hover:block z-40 '>
                    <ul>
                     <li><a>Bridal Sets</a></li>
                     <li><a>Short Necklaces</a></li>
