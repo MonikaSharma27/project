@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <div className="App m-0 p-0 box-border bg-red-700">
+      <div className="App m-0 p-0 box-border bg-red-700 sm:hidden">
         <div className="container w-full flex justify-between items-center text-white p-2 ">
           <div className="social ml-7 flex">
             <a className=" border-2 border-red-500 p-1 rounded-full"><FaFacebook size={15} /></a>
@@ -24,7 +24,7 @@ function App() {
 
 
       <div className="logo border-b-2 border-b-slate-200 flex ">
-        <div className="left flex items-center  w-1/2">
+        <div className="left flex items-center  w-1/2 ">
           <h1 className="text-5xl font-bold ml-14 p-5 text-red-700">Kushal's</h1>
           <p className="p-5 pl-10">90+ Stores nearby</p> | <span className="p-5"> Shipping to Meerut</span>
         </div>
